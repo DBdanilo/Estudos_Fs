@@ -1,0 +1,132 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- faltava o fechamento da tag de titulo -->
+    <title>Exercício de HTML Semântico</title> <!-- o que eu acresentei </title> -->
+    <meta charset="UTF-8">
+    <!-- acresentei meta viewport para a pagina ter responsividade -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adicionado -->
+    <!-- realizei o fechamento da tag da tag link -->
+    <link rel="stylesheet" href="style.css"> <!-- Faltava > -->
+
+
+</head>
+
+
+
+
+
+
+<body>
+
+<header>
+<nav>
+<ul>
+    <!-- CORREÇÃO: Fechamento das tags a e li -->
+    <li><a href="#inicio">Início</a></li> <!-- Faltava </a> e </li> -->
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+
+    <!-- CORREÇÃO: Adicionado href e fechamento das tags -->
+    <li><a href="#contato">Contato</a></li> <!-- Faltava href e fechamento -->
+</ul>
+</nav>
+
+<h1>Projeto de Treinamento</h1>
+</header>
+
+<main>
+
+
+<section id="inicio">
+    
+    <h2>Página Principal</h2> <!-- Faltava </h2> -->
+   
+    <p>Explore nosso conteúdo e aprenda cada dia mais!</p> <!-- Faltava </p> -->
+    <ul>
+        <li>HTML5</li> <!-- Faltava </li> -->
+        <li>CSS3</li>
+        <li>JavaScript Básico</li>
+    </ul>
+</section>
+
+<aside>
+
+    <h3>Dica do Dia</h3> <!-- Faltava </h3> -->
+    <p>Pratique todos os dias para melhorar suas habilidades</p>
+    <!-- CORREÇÃO: Fechamento da tag a -->
+    <a href="#">Veja mais dicas</a> <!-- Faltava </a> -->
+
+</aside>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Uma comunidade apaixonada por tecnologia.</p>
+    <ul>
+        <li>Missão: Compartilhar conhecimento</li>
+        <li>Visão: Educação acessível</li>
+        <li>Valores: Colaboração e Inovação</li>
+    </ul>
+</section>
+
+<section id="projetos">
+    <h2>Projetos Recentes</h2>
+    <p>Conheça alguns dos nossos últimos projetos:</p>
+    <ol>
+        <li>Portal Educacional</li>
+        <li>Plataforma de Cursos Online</li>
+        <li>Aplicativo de Estudos</li>
+    </ol>
+</section>
+
+<section id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Envie suas dúvidas e sugestões.</p>
+    <ul>
+        <li>Email: suporte@educaonline.com</li>
+        <li>WhatsApp: (11) 90000-0000</li>
+        <li>Redes Sociais: @educaonline</li>
+    </ul>
+
+    <!-- CORREÇÃO: Formulário completo -->
+    <form method="post" action="enviar.php"> <!-- Adicionado aspas e > -->
+        <!-- CORREÇÃO: Label com for e fechamento -->
+        <label for="nome">Nome:</label> <!-- Adicionado for e : -->
+        <!-- CORREÇÃO: Input com id e fechamento -->
+        <input id="nome" name="nome" type="text"><br> <!-- Adicionado id e aspas -->
+
+        <label for="email">E-mail:</label>
+        <input id="email" name="email" type="email"><br>
+
+        <label for="mensagem">Mensagem:</label>
+        <!-- CORREÇÃO: Textarea completo -->
+        <textarea id="mensagem" name="mensagem" cols="40" rows="5"></textarea> <!-- Adicionado aspas e fechamento -->
+
+        <input type="submit" value="Enviar"> <!-- Adicionado aspas -->
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <!-- CORREÇÃO: Parágrafo fechado e símbolo copyright -->
+    <p>Todos os direitos reservados &copy; 2025</p> <!-- Adicionado </p> e &copy; -->
+    <nav>
+        <ul>
+            <!-- CORREÇÃO: Links no footer fechados -->
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre Nós</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</body>
+</html>
