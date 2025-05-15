@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade</title>
+    <link rel="stylesheet" href="style_reutilizar.css" />
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <!-- Seção de navegação -->
+      <nav class="nav-bar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="https://github.com/DBdanilo">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main style="padding: 10px">
+      <!-- Seção de apresentação -->
+    
+      <section id="sobre">
+        <h1 style="color: rgb(40, 37, 40); margin-bottom: 0;">Danilo Macedo</h1>
+        <h2 style="margin-top: 0; font-size: medium;">Desenvolvedor Full-Stack</h2>
+
+        <!-- Lista não ordenada -->
+        <ul id="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
+
+      <!-- Seção de projetos -->
+
+      <section id="projetos">
+        <h2>Projetos</h2>
+        <p>Projetos desenvolvidos por mim:</p>
+
+        <!-- Lista ordenada -->
+        <ol>
+          <li>
+            <a href="https://github.com/DBdanilo/challenge-amigo-secreto_pt-main"
+              >Projeto Amigo secreto<
+            </a>
+            <p>Um projeto de amigo secreto desenvolvido em JavaScript.</p>
+        </ol>
+      </section>
+      <!-- Seção lateral com um resumo próprio -->
+      <aside>
+        <h2>Sobre mim</h2>
+        <p>
+          Olá, meu nome é Danilo Macedo e sou um desenvolvedor Full-Stack.
+          Estou sempre buscando aprender e aprimorar minhas habilidades.
+          Atualmente, estou focado em aprender novas tecnologias e
+          frameworks para me tornar um desenvolvedor mais completo.
+          Tenho experiência em HTML, CSS e JavaScript, e estou sempre
+          buscando novos desafios para me ajudar a crescer como
+          profissional. Estou sempre aberto a aprender novas
+          tecnologias e a trabalhar em projetos desafiadores.
+        </p>
+        <p>Estou aprendendo a desenvolver sites e aplicativos.</p>
+        <a href="https://github.com/DBdanilo">Linkedin</a>
+      </aside>
+    </main>
+
+    <footer style="padding: 10px">
+
+      <p>Entre em contato comigo:</p>
+      <section id="contato">
+        <p>Gmail: danilo.macedo4@gmail.com</p>
+      </section>
+
+      <p>Desenvolvido por Danilo Macedo</p>
+      <p>2025</p>
+      <p>Todos os direitos reservados</p>
+    </footer>
+
+    <style>
+      #habilidades {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        gap: 5px;
+        display: inline-flex;
+      }
+      #habilidades li {
+        background-color: #e1d0e1;
+        margin: 5px 0;
+        padding: 8px;
+        border-radius: 8px;
+        max-width: 150px;
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </body>
+</html>
