@@ -13,9 +13,6 @@ alert("Nome completo: " + nomeCompleto);
 // Atividade 2_ aula_ 01
 
 var nome = "Danilo";
-var idade = 30;
-
-var nome = "Danilo";
 var idade = 25; 
 
 
