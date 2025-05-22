@@ -1,4 +1,3 @@
-
 // Atividade 1_ aula_ 01
 
 /* var nome = "Danilo";
@@ -18,6 +17,9 @@ var idade = 25;
 
 var mensagem = "Parabéns pelo seu aniversário, " + nome + "! 🎉 Hoje você celebra " + idade + " anos de histórias, conquistas e momentos incríveis! Que seu dia seja repleto de alegria e sucesso!";
 
-console.log(mensagem);
+console.log("Mensagem:", mensagem);
 alert(mensagem);
+
+// Mostra a mensagem na página
+document.getElementById("mensagem").textContent = mensagem;
 
